@@ -25,6 +25,7 @@ public class ProductServiceTest {
 	private Product[] testProduct;
 	final static int TEST_NumberOfProducts = 10;
 
+	/*
 	@Before
 	public void setUp() throws Exception {
 		// Remove previous objects
@@ -158,5 +159,5 @@ public class ProductServiceTest {
 		}
 		return found;
 	}
-
+	*/
 }

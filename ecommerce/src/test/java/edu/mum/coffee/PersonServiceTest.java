@@ -26,6 +26,7 @@ public class PersonServiceTest {
 
 	final static int TEST_NumberOfPersons = 3;
 
+	/*
 	@Before
 	public void setUp() {
 
@@ -143,5 +144,6 @@ public class PersonServiceTest {
 		}
 		return true;
 	}
+	*/
 
 }

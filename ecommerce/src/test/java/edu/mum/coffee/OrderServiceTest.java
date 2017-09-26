@@ -43,6 +43,7 @@ public class OrderServiceTest {
 	final static int TEST_NumberOfProducts = 20;
 	final static int TEST_NumberOfPersons = 3;
 
+	/*
 	@Before
 	public void setUp() throws Exception {
 		// Remove previous objects
@@ -259,4 +260,5 @@ public class OrderServiceTest {
 		}
 		return true;
 	}
+	*/
 }
