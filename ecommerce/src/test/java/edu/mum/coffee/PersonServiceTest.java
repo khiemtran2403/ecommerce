@@ -31,7 +31,6 @@ public class PersonServiceTest {
 		
 	}
 	
-	/*
 	@Before
 	public void setUp() {
 
@@ -149,6 +148,4 @@ public class PersonServiceTest {
 		}
 		return true;
 	}
-	*/
-
 }
