@@ -25,6 +25,10 @@ public class ProductServiceTest {
 	private Product[] testProduct;
 	final static int TEST_NumberOfProducts = 10;
 
+	private void deleteTestObjects() {
+		
+	}
+	
 	/*
 	@Before
 	public void setUp() throws Exception {

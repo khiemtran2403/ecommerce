@@ -25,7 +25,11 @@ public class PersonServiceTest {
 	private Person[] testPerson;
 
 	final static int TEST_NumberOfPersons = 3;
-
+	
+	private void deleteTestObjects() {
+		
+	}
+	
 	/*
 	@Before
 	public void setUp() {

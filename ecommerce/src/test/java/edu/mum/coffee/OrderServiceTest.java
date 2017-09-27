@@ -43,6 +43,10 @@ public class OrderServiceTest {
 	final static int TEST_NumberOfProducts = 20;
 	final static int TEST_NumberOfPersons = 3;
 
+	private void deleteTestObjects() {
+		
+	}
+	
 	/*
 	@Before
 	public void setUp() throws Exception {
