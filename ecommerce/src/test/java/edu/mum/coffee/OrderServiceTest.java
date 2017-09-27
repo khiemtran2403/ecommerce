@@ -44,7 +44,7 @@ public class OrderServiceTest {
 	final static int TEST_NumberOfPersons = 3;
 
 	@Test
-	private void deleteTestObjects() {
+	public void deleteTestObjects() {
 		
 	}
 	
