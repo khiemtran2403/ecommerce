@@ -36,7 +36,7 @@
 					<li class="header user-icon"><img
 							src="resources/image/user.png" /></li>
 					<li class="header count"><span>${sessionScope['myCart'].cartLines.size() == null ? 0 : sessionScope['myCart'].cartLines.size()}</span></li>
-					<li class="header user-icon"><a href="/shoppingCart"><span
+					<li class="header user-icon"><a href="shoppingCart"><span
 							class="glyphicon glyphicon-shopping-cart"></span></a></li>
 				</sec:authorize>
 			</c:otherwise>
