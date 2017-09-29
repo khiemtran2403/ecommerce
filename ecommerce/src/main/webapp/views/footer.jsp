@@ -7,10 +7,10 @@
 					<div class="block-heading">Information</div>
 					<div class="block-content">
 						<ul>
-							<li><a href="https://www.facebook.com/trancaoha">About Us</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Delivery Information</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Privacy Policy</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Terms &amp; Conditions</a></li>
+							<li><a href="https://www.facebook.com">About Us</a></li>
+							<li><a href="https://www.facebook.com">Delivery Information</a></li>
+							<li><a href="https://www.facebook.com">Privacy Policy</a></li>
+							<li><a href="https://www.facebook.com">Terms &amp; Conditions</a></li>
 						</ul>
 					</div>
 				</div>
@@ -21,8 +21,8 @@
 						Customer Service					</div>
 					<div class="block-content">
 						<ul>
-							<li><a href="https://www.facebook.com/trancaoha">Contact Us</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Returns</a></li>
+							<li><a href="https://www.facebook.com">Contact Us</a></li>
+							<li><a href="https://www.facebook.com">Returns</a></li>
 							<li><a href="//www.google.com/maps/?q=41.018,-91.9688">Site Map</a></li>
 						</ul>
 					</div>
@@ -34,10 +34,10 @@
 						Extras					</div>
 					<div class="block-content">
 						<ul>
-							<li><a href="https://www.facebook.com/trancaoha">Brands</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Gift Vouchers</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Affiliates</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Specials</a></li>
+							<li><a href="https://www.facebook.com">Brands</a></li>
+							<li><a href="https://www.facebook.com">Gift Vouchers</a></li>
+							<li><a href="https://www.facebook.com">Affiliates</a></li>
+							<li><a href="https://www.facebook.com">Specials</a></li>
 						</ul>
 					</div>
 				</div>
@@ -48,10 +48,10 @@
 						My Account					</div>
 					<div class="block-content">
 						<ul>
-							<li><a href="https://www.facebook.com/trancaoha">My Account</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Order History</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Wish List</a></li>
-							<li><a href="https://www.facebook.com/trancaoha">Newsletter</a></li>
+							<li><a href="https://www.facebook.com">My Account</a></li>
+							<li><a href="https://www.facebook.com">Order History</a></li>
+							<li><a href="https://www.facebook.com">Wish List</a></li>
+							<li><a href="https://www.facebook.com">Newsletter</a></li>
 						</ul>
 					</div>
 				</div>

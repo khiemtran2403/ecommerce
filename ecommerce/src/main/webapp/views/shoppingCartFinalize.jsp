@@ -14,7 +14,7 @@
 	<tiles:putAttribute name="body">
 		<div style="height: 90px; display: inline-block;">
 			<div class="logo">
-				<img alt="logo" src="../resources/image/logo.png">
+				<img alt="logo" src="resources/image/logo.png">
 			</div>
 		</div>
 

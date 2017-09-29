@@ -15,10 +15,10 @@
 	<tiles:putAttribute name="body">
 		<div style="height: 90px; display: inline-block;">
 			<div class="logo">
-				<img alt="logo" src="../resources/image/logo.png">
+				<img alt="logo" src="resources/image/logo.png">
 				<ul>
 					<li class="social-icon"><a
-						href="https://www.facebook.com/profile.php?id=100001675162908"><i
+						href="https://www.facebook.com"><i
 							class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li class="social-icon"><a href="https://twitter.com"><i
 							class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -65,7 +65,7 @@
 								<h3>Get start your purchase</h3>
 							</hgroup>
 							<button class="btn btn-hero btn-lg" role="button"
-								onclick="location.href='/productAll';">See all product</button>
+								onclick="location.href='productAll';">See all product</button>
 						</div>
 					</div>
 					<div class="item slides">
@@ -76,7 +76,7 @@
 								<h3>Get start your purchase</h3>
 							</hgroup>
 							<button class="btn btn-hero btn-lg" role="button"
-								onclick="location.href='/productAll';">See all product</button>
+								onclick="location.href='productAll';">See all product</button>
 						</div>
 					</div>
 					<div class="item slides">
@@ -87,7 +87,7 @@
 								<h3>Get start your purchase</h3>
 							</hgroup>
 							<button class="btn btn-hero btn-lg" role="button"
-								onclick="location.href='/productAll';">See all product</button>
+								onclick="location.href='productAll';">See all product</button>
 						</div>
 					</div>
 				</div>

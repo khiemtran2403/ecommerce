@@ -22,10 +22,10 @@
 			</div>
 			<div class="category col-sm-3">
 				<ul>
-					<li><a href="/productAll?type=bf">Breafast Coffee</a></li>
-					<li><a href="/productAll?type=l">Lunch Coffee</a></li>
-					<li><a href="/productAll?type=d">Dinner Coffee</a></li>
-					<li><a href="/productAll?type=t">Tea</a></li>
+					<li><a href="productAll?type=bf">Breafast Coffee</a></li>
+					<li><a href="productAll?type=l">Lunch Coffee</a></li>
+					<li><a href="productAll?type=d">Dinner Coffee</a></li>
+					<li><a href="productAll?type=t">Tea</a></li>
 				</ul>
 			</div>
 			<div id="coffee" class="col-sm-9">
@@ -48,7 +48,7 @@
 								<div class="description">${product.description}</div>
 								<div class="price">$${product.price}</div>
 								<sec:authorize access="hasRole('USER')">
-									<a class="addToCartBtn" href="/buyProduct?code=${product.id}">
+									<a class="addToCartBtn" href="buyProduct?code=${product.id}">
 										<span class="glyphicon glyphicon-shopping-cart"></span> Add To
 										Cart
 									</a>

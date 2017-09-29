@@ -62,7 +62,7 @@
 				<div class="detail">${product.description}</div>
 				<sec:authorize access="hasRole('USER')">
 					<button type="button" class="button-search"
-						onclick="location.href='/buyProduct?code=${product.id}';"
+						onclick="location.href='buyProduct?code=${product.id}';"
 						<c:if test="${product.quantity == 0}">disabled</c:if>>
 						<span class="glyphicon glyphicon-shopping-cart"></span> Add to
 						cart

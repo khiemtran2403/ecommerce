@@ -213,7 +213,7 @@
 									<a href="user/list" class="btn btn-info">Back</a>
 								</sec:authorize>
 								<sec:authorize access="hasRole('USER')">
-									<a href="/home" class="btn btn-info">Back</a>
+									<a href="home" class="btn btn-info">Back</a>
 								</sec:authorize>
 							</c:when>
 							<c:otherwise>

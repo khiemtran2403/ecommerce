@@ -120,7 +120,7 @@
 					</c:choose>
 					<c:choose>
 						<c:when test="${person.id > 0}">
-							<a href="/home" class="btn btn-info">Back</a>
+							<a href="home" class="btn btn-info">Back</a>
 						</c:when>
 						<c:otherwise>
 							<a href="list" class="btn btn-info">Back</a>

@@ -14,7 +14,7 @@
 		<div id="users">
 				<h3>User Management</h3>
 				<sec:authorize access="hasRole('ADMIN')">
-					<a href="/user/add" id="addLnk" class="btn btn-primary pull-right"><strong>+</strong>
+					<a href="user/add" id="addLnk" class="btn btn-primary pull-right"><strong>+</strong>
 						Add User</a>
 				</sec:authorize>
 				<c:choose>
@@ -45,11 +45,11 @@
 										<td>${user.getAuthorityToShowList()}</td>
 										<sec:authorize access="hasRole('ADMIN')">
 											<td class="action"><a
-												href="/user?action=update&userId=${user.id}" id="updateLnk"
+												href="user?action=update&userId=${user.id}" id="updateLnk"
 												class="btn btn-info"><span
 													class="glyphicon glyphicon-edit"></span> Edit</a></td>
 											<td class="action"><a
-												data-href="/user?action=delete&userId=${user.id}"
+												data-href="user?action=delete&userId=${user.id}"
 												id="deleteLnk" class="btn btn-danger" data-toggle="modal"
 												data-target="#confirm-delete"><span
 													class="glyphicon glyphicon-remove"></span> Del</a></td>

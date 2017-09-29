@@ -14,7 +14,7 @@
 			<c:if test="${empty cartForm or empty cartForm.cartLines}">
 				<h2>There is no items in Cart</h2>
 				<div class="form-group back">
-					<a href="/home" class="backToHome"><span><i
+					<a href="home" class="backToHome"><span><i
 							class="fa fa-reply"></i>Back to: Home</span></a>
 				</div>
 			</c:if>
@@ -120,7 +120,7 @@
 											<td><input class="btn btn-info" type="submit"
 												value="Update Quantity" /></td>
 											<td><a type="button" class="btn btn-default"
-												href="/home"> <span
+												href="home"> <span
 													class="glyphicon glyphicon-shopping-cart"></span> Continue
 													Shopping
 											</a></td>

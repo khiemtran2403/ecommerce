@@ -16,7 +16,7 @@
 			<c:choose>
 				<c:when test="${persons.size() == 0}">
 					<h1 class="productNotExist">Don't have any Person</h1>
-					<a href="/person/add" id="addLnk"
+					<a href="person/add" id="addLnk"
 						class="btn btn-success productNotExistAddBtn">Add Person</a>
 				</c:when>
 				<c:otherwise>
@@ -90,7 +90,7 @@
 							</c:otherwise>
 						</c:choose>
 					</ul>
-					<a href="/person/add" id="addLnk" class="btn btn-success">Add
+					<a href="person/add" id="addLnk" class="btn btn-success">Add
 						Person</a>
 				</c:otherwise>
 			</c:choose>
