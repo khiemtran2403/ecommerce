@@ -1,5 +1,6 @@
 package edu.mum.coffee.controller;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -24,6 +26,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import edu.mum.coffee.domain.Product;
 import edu.mum.coffee.domain.ProductType;
 import edu.mum.coffee.domain.User;
+import edu.mum.coffee.service.MessageService;
 import edu.mum.coffee.service.ProductService;
 import edu.mum.coffee.service.UserService;
 
@@ -36,11 +39,14 @@ public class HomeController {
 	@Autowired
 	private ProductService productService;
 	
+	@Autowired
+	private MessageService messageService;
+	
 	@GetMapping({"/", "/index", "/home"})
 	public String homePage(Model model, HttpServletRequest request) {
 		List<Product> products = productService.getAllProduct();
 		Map<ProductType,List<Product>> result = classifyProduct(products);
-
+		
 		List<Product> coffee = new ArrayList<>();
 		coffee.addAll(result.get(ProductType.BREAKFAST));
 		coffee.addAll(result.get(ProductType.LUNCH));
@@ -76,9 +82,15 @@ public class HomeController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(@RequestParam(value = "error", required = false) String error,
 			@RequestParam(value = "logout", required = false) String logout, Model model) {
-
+		
+		String loginMessage;
+		try {
+			loginMessage = messageService.getLoginMessage();
+		} catch (FileNotFoundException e) {
+			loginMessage = "Incorrect Username or Password. Please try again";
+		}
 		if (error != null) {
-			model.addAttribute("error", "Invalid UserName And PassWord");
+			model.addAttribute("error", loginMessage);
 		}
 
 		if (logout != null) {
